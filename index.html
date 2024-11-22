@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Idea Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gift Idea Generator</h1>
+        <label for="age-category">Select Age Category:</label>
+        <select id="age-category">
+            <option value="12-19">12-19</option>
+            <option value="20-29">20-29</option>
+            <option value="30-39">30-39</option>
+            <option value="40-49">40-49</option>
+            <option value="50-59">50-59</option>
+            <option value="60+">60+</option>
+        </select>
+        <button onclick="generateGift()">Generate Gift Idea</button>
+        <div id="gift-idea"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
